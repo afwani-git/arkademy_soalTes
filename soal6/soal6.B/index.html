@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/main.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <title>ARKADEMY COFFEE SHOP</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <img src="img/logo2.png" class="img-fluid mr-3" alt="">
+            <a class="navbar-brand" href="#">
+	                <span class="title-head">ARKADEMY</span> COFFE SHOP
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <button onclick="popUp()" class="btn btn-outline-success ml-auto my-2 my-sm-0 btn-pink" type="submit">ADD</button>
+            </div>
+        </div>
+    </nav>
+    <section class="content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card outerTable">
+                        <div class="card-body">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">No</th>
+                                        <th scope="col">Chasier</th>
+                                        <th scope="col">Product</th>
+                                        <th scope="col">Category</th>
+                                        <th scope="col">Price</th>
+                                        <th scope="col">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- all rows -->
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Cintia</td>
+                                        <td>Ice Tea</td>
+                                        <td>food</td>
+                                        <td>Rp.5000</td>
+                                        <td>
+                                            <a href="#" class="text-success">
+                                                <h5 class="d-inline">edit</h5>
+                                            </a>|
+                                            <a href="#" class="text-danger">
+                                                <h5 class="d-inline">hapus</h5>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Dana Askin</td>
+                                        <td>Gudeg</td>
+                                        <td>food</td>
+                                        <td>Rp.144000</td>
+                                        <td>
+                                            <a href="#" class="text-success">
+                                                <h5 class="d-inline">edit</h5>
+                                            </a>|
+                                            <a href="#" class="text-danger">
+                                                <h5 class="d-inline">hapus</h5>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Afwani Shofiyulloh</td>
+                                        <td>tahu telor</td>
+                                        <td>food</td>
+                                        <td>Rp.144000</td>
+                                        <td>
+                                            <a href="#" class="text-success">
+                                                <h5 class="d-inline">edit</h5>
+                                            </a>|
+                                            <a href="#" class="text-danger">
+                                                <h5 class="d-inline">hapus</h5>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="card popUP" id="popUp" style="display: none;">
+        <div class="card-body">
+            <div class="card-title">
+                <h4>ADD</h4>
+            </div>
+        </div>
+        <form action="/" method="post">
+            <div class="form-group">
+            	 <select class="form-control" id="exampleFormControlSelect1">
+			      <option>Afwani</option>
+			      <option>Cintia</option>
+    			</select>
+            </div>
+            <div class="form-group">
+            	<select class="form-control" id="exampleFormControlSelect1">
+			      <option>Drink</option>
+			      <option>Food</option>
+    			</select>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" name="Fav" placeholder="Drink">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" name="Fav" placeholder="10000">
+            </div>
+            <input type="submit" class="btn-block btn btn-pink" value="submit">
+        </form>
+    </div>
+
+ <script src="js/main.js"></script>
+</body>
+
+</html>

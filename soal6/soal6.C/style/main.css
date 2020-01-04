@@ -1,0 +1,41 @@
+body {
+    position: relative;
+}
+
+.btn-pink {
+    padding: 10px 30px;
+    background: #f06595;
+    border: 1px solid transparent;
+    color: white;
+}
+
+.btn-pink:hover {
+    background: white;
+    border: 1px solid #f06595;
+    color: #f06595;
+}
+
+
+.title-head {
+    color: #f06595;
+}
+
+.content {
+    margin-top: 40px;
+}
+
+.outerTable {
+    box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
+    border-radius: 10px;
+}
+
+.popUP {
+    position: absolute;
+    z-index: 99;
+    width: 400px;
+    box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
+    border-radius: 3px;
+    padding: 10px 30px 40px 30px;
+    top: 40%;
+    left: 34%;
+}

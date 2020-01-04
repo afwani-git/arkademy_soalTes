@@ -1,0 +1,6 @@
+
+function popUp(){
+
+
+	$("#popUp").toggle();
+}
